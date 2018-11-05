@@ -78,6 +78,7 @@
   <ItemGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid')) ">
     <Compile Include="**\*.android.cs" />
     <Compile Include="**\*.android.*.cs" />
+    <AndroidResource Include="Resources\**\*.xml" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
